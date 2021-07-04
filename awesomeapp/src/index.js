@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+const myname="Saurav Kumar";
 ReactDOM.render(
- 
-   <>
-   <h1>Saurav Netflix Pickup</h1>
-   <p> How are You</p>
-   <ol>
-   <li>Dark</li>
-   <li>Holy love</li>
-   <li>Mind</li>
-   <li>Game</li>
-   <li>Lilly</li>
+  
+ <>
+  <h1>Hello My name is {myname} </h1>
+     
 
-
-   </ol>
    </>,
+   
    document.getElementById('root')
 
 
